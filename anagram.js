@@ -1,5 +1,5 @@
 function anagram_check(str1, str2) {
-  return console.log(clean(str1) === clean(str2));
+  return clean(str1) === clean(str2);
 }
 
 function clean(str) {
@@ -14,5 +14,4 @@ function clean(str) {
   return clean_str;
 }
 
-anagram_check("hello", "elloh");
-anagram_check("hello", "ellloh");
+
