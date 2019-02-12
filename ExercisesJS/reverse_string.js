@@ -1,7 +1,9 @@
 function reverse_string(str) {
-  return (string = str
-    .split("")
-    .reverse()
-    .join(""));
+  const string = str
+  .split("")
+  .reverse()
+  .join("");
+  return string ;
 }
+
 reverse_string("hen");
