@@ -3,7 +3,7 @@ function draw_pyramid(n) {
   let row_l = 2 * n - 1;
   const mid = Math.floor(row_l / 2);
 
-  while (row <= n) {
+  while (row <=n) {
     let low = mid - row;
     let high = mid + row;
     let line = "";
