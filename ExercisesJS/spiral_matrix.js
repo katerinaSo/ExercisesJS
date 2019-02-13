@@ -33,7 +33,7 @@ function spiral_martrix(n) {
     // moving column to the left since we already populated the previous column
     col_end -= 1;
 
-    // loop for going LEFT continue placing values 
+    // loop for going LEFT continue placing values
     for (let i = col_end; i >= col_start; i--) {
       result[row_end][i] = value_generator;
       value_generator += 1;
@@ -54,4 +54,3 @@ function spiral_martrix(n) {
 
   return result;
 }
-spiral_martrix(6);
