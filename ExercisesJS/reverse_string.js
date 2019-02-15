@@ -6,4 +6,15 @@ function reverse_string(str) {
   return string;
 }
 
+
+
 reverse_string("hen");
+
+function reverse(str) {
+  let reversed = "";
+  for (let character of str) {
+    reversed = character+reversed
+  }
+  return reversed;
+}
+reverse('neh')
